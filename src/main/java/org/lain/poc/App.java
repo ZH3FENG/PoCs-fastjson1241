@@ -15,7 +15,7 @@ import org.lain.poc.poclist.TemplatesImplPoc;
  *               利用了com.alibaba.fastjson.util.TypeUtils->loadClass(Line:1055)加载类时LObject_path;->变换为Object_path，
  *               LObject_path;绕过ParserConfig.checkAutoType(Line:808)startWith()
  *
- *               需要开启 autoTypeSupport，fastJson在早起修复时增加的开关
+ *               需要开启 autoTypeSupport，fastJson在早期修复时增加的开关
  *               https://github.com/alibaba/fastjson/wiki/security_update_20170315
  *               官方已经警告了开启会有风险了，所以实际情况这个应该成为一个限制
  *
